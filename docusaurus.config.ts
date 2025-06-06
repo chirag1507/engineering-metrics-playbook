@@ -74,10 +74,10 @@ const config: Config = {
     image: "img/docusaurus-social-card.jpg",
     navbar: {
       title: "Engineering Metrics Playbook",
-      logo: {
-        alt: "Avesta Technologies Logo",
-        src: "img/logo.svg",
-      },
+      // logo: {
+      //   alt: "Avesta Technologies Logo",
+      //   src: "img/logo.svg",
+      // },
       items: [
         {
           type: "docSidebar",
@@ -91,7 +91,7 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Playbook Sections",
+          title: "Playbook",
           items: [
             {
               label: "Introduction",
@@ -102,42 +102,63 @@ const config: Config = {
               to: "/docs/why-metrics-matter",
             },
             {
+              label: "Understanding Our Approach",
+              to: "/docs/understanding-our-approach",
+            },
+            {
               label: "Metrics Categorization",
               to: "/docs/metrics-categorization",
             },
+            {
+              label: "Implementing a Metrics Culture",
+              to: "/docs/implementing-metrics-culture",
+            },
+            {
+              label: "Conclusion",
+              to: "/docs/conclusion",
+            },
           ],
         },
-        // {
-        //   title: 'Community (Example)', // Keep or update as needed
-        //   items: [
-        //     {
-        //       label: 'Stack Overflow',
-        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //     },
-        //     {
-        //       label: 'Discord',
-        //       href: 'https://discordapp.com/invite/docusaurus',
-        //     },
-        //     {
-        //       label: 'X',
-        //       href: 'https://x.com/docusaurus',
-        //     },
-        //   ],
-        // },
-        // {
-        //   title: 'More',
-        //   items: [
-        //     // {
-        //     //   label: 'Blog',
-        //     //   to: '/blog',
-        //     // },
-        //     {
-        //       label: 'GitHub',
-        //       href: 'https://github.com/DevProsInc/engineering-metrics-playbook', // Update if you have a different repo URL
-        //     },
-        //   ],
-        // },
+        {
+          title: "Metric Categories",
+          items: [
+            {
+              label: "Project Flow",
+              to: "/docs/project-flow-metrics",
+            },
+            {
+              label: "Code Delivery",
+              to: "/docs/code-delivery-metrics",
+            },
+            {
+              label: "Code Quality",
+              to: "/docs/code-quality-metrics",
+            },
+            {
+              label: "Team Health",
+              to: "/docs/team-health-metrics",
+            },
+            {
+              label: "Product Impact",
+              to: "/docs/product-impact-metrics",
+            },
+          ],
+        },
+        {
+          title: "Resources",
+          items: [
+            {
+              label: "Glossary",
+              to: "/docs/glossary",
+            },
+            {
+              label: "References",
+              to: "/docs/references",
+            },
+          ],
+        },
       ],
+      copyright: `Copyright © ${new Date().getFullYear()} Avesta Technologies.`,
     },
     prism: {
       theme: prismThemes.github,
