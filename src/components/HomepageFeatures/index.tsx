@@ -14,15 +14,20 @@ const FeatureList: FeatureItem[] = [
     title: "Project Flow Metrics",
     description: (
       <>
-        Understand how work moves through your system from idea to delivery. Key metrics include Lead Time and Cycle
-        Time.
+        Measure the efficiency and predictability of your team's workflow with metrics like Throughput and Sprint
+        Adherence.
       </>
     ),
     link: "/docs/project-flow-metrics",
   },
   {
     title: "Code Delivery Metrics",
-    description: <>Assess the speed and efficiency of the code creation, review, and integration pipeline.</>,
+    description: (
+      <>
+        Assess the speed and efficiency of turning code into value with key metrics like Lead Time for Changes and Cycle
+        Time.
+      </>
+    ),
     link: "/docs/code-delivery-metrics",
   },
   {

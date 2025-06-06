@@ -73,7 +73,6 @@ To effectively leverage engineering metrics, it's crucial to understand their va
     - _Metrics in this category are detailed in the "Product Impact Metrics" section and include:_
       - Feature Usage Rate
       - User Adoption Rate
-      - Customer Satisfaction (CSAT) & Net Promoter Score (NPS)
       - Task Completion Rate (TCR)
 
 3.  **Production System Quality & Reliability (Overall Stability Focus):**
